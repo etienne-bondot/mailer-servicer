@@ -9,11 +9,15 @@ A mailing service.
 You need to provide a `.env` file in the root directory with following credentials:
 
 ```text
+# For <gmail> provider
 GMAIL_USERNAME=
 OAUTH_CLIENT_ID=
 OAUTH_CLIENT_SECRET=
 OAUTH_REFRESH_TOKEN=
 OAUTH_ACCESS_TOKEN=
+
+# Required
+PROVIDER=<gmail>
 ```
 
 ## Installation
